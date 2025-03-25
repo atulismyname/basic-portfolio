@@ -47,6 +47,21 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  #projects {
+    height: auto;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+  .details-container {
+    margin-bottom: 2rem;
+  }
+  .project-description {
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -99,5 +114,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .project-description {
+    font-size: 0.75rem;
   }
 }
